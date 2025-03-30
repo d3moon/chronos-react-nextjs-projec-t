@@ -1,0 +1,11 @@
+/*
+  CSS Modules são uma abordagem para estilização 
+  em projetos front-end que permite o escopo local de estilos, 
+  evitando conflitos globais de classes. Funciona atribuindo
+  um identificador único a cada classe CSS, garantindo que 
+  estilos não vazem para outros componentes.
+*/
+
+.heading {
+  background-color: brown;
+}

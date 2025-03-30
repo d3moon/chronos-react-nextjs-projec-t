@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  place-items: center;
+}
+
+.heading {
+  background-color: orange !important; /* Não funciona pq o el que está utilizando está num escopo de estilizacao atraves de um modulo css  (css modules)*/
+}
